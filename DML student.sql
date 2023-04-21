@@ -28,6 +28,7 @@ alter table javastudent2 RENAME TO student1_details;
 insert into student1_details values(7,'sana',22,987125171,'sana77@gmal.com','Ghaziabad','BCA');
 
 # DML---INSERT,UPDATE,DELETE
+
 update student1_details  set sage=20 where ID=1;
 update student1_details  set sage=23 where ID=2;
 update student1_details  set sage=25 where ID=3;
