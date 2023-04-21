@@ -99,7 +99,7 @@ update student1_details set fees= 5200.50 where id=5;
 update student1_details set fees= 2500.50 where id=7;
 update student1_details set fees= 4500.50 where id=1;
 #greater than
-select id,fees from student1_details where fees > 4000;
+select id,fees from student1_details where fees > 4000; 
 
 # between
 select sname,fees from student1_details where fees between 2000 and 3000;
