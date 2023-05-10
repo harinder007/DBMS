@@ -33,6 +33,7 @@ select min(salary) from future_emp where dept='EE';
 select  min(salary) from future_emp;
 select min(salary) from future_emp ;
 
+
 #max
 select dept,max(salary) as 'max_dept_salary' from future_emp group by dept;
 select max(salary) from future_emp where dept='EE';
